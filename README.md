@@ -19,6 +19,7 @@ This is a simple To-Do application built with Django. It allows users to add, ed
 2. Navigate to the project directory:
     ```bash
     cd django-todo-app
+    cd todoProject
     ```
 3. Create and activate the virtual environment:
     ```bash
