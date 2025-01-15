@@ -15,3 +15,10 @@ def markAsDone(request, id):
     task.is_completed = True
     task.save()
     return redirect('home')
+
+
+def setAsIncomplete(request, id):
+    task = get_object_or_404(Task, id=id)
+    task.is_completed = False
+    task.save()
+    return redirect('home')
